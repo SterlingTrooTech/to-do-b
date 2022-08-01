@@ -4,7 +4,7 @@ const cors = require("cors");
 const app = express();
 
 var corsOptions = {
-  origin: "https://62e772f667682679294bccb0--meek-bunny-7dc9bb.netlify.app",
+  origin: "https://meek-bunny-7dc9bb.netlify.app",
   credentials: true,
 };
 
