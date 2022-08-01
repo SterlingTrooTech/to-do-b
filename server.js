@@ -4,7 +4,7 @@ const cors = require("cors");
 const app = express();
 
 var corsOptions = {
-  origin: "http://localhost:8081"
+  origin: "https://s-to-do-be.herokuapp.com"
 };
 
 app.use(cors(corsOptions));
