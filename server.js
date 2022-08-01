@@ -4,7 +4,8 @@ const cors = require("cors");
 const app = express();
 
 var corsOptions = {
-  origin: "https://s-to-do-be.herokuapp.com"
+  origin: "https://s-to-do-be.herokuapp.com",
+  credentials: true,
 };
 
 app.use(cors(corsOptions));
